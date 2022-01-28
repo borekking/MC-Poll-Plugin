@@ -1,0 +1,11 @@
+name: MCPolls
+author: borekking
+version: 1.0
+main: de.borekking.mcPolls.Main
+api-version: 1.8
+commands:
+  poll:
+    description: General Command for all Poll-Plugin related subcommands.
+  vote:
+    description: A Command to vote in a specific Poll.
+    permission: poll.vote
